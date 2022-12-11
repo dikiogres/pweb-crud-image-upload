@@ -14,7 +14,7 @@
         <div class="card border-0 shadow">
             <div class="card-body p-5">
                 <h1 class="mb-4 fw-bold px-md-5">Formulir Pendaftaran</h1>
-                <form action="./process-registration.php" method="POST" enctype="multipart/form-data">
+                <form action="./registration-process.php" method="POST" enctype="multipart/form-data">
                     <div class="mb-3 row">
                         <label for="nis" class="col-md-2 col-form-label">NIS</label>
                         <div class="col-md-10">
