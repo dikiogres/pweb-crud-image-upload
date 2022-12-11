@@ -105,7 +105,7 @@
                         echo "<td>" . $student["address"] . "</td>";
                         echo "<td>";
                         echo "<a href='./edit-form.php?id=" . $student["id"] . "' class='btn btn-outline-info me-1 me-md-3 fw-semibold'>Edit</a>";
-                        //echo "<a href='./delete.php?id=" . $student["id"] . "' class='btn btn-outline-danger fw-semibold'>Hapus</a>";
+                        echo "<a href='./delete.php?id=" . $student["id"] . "' class='btn btn-outline-danger fw-semibold'>Hapus</a>";
                         echo "</td>";
                         echo "</tr>";
                     }
